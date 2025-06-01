@@ -1,52 +1,57 @@
 # CodingSamuraiTasks
--Task 1: House Prediction using Linear Regression 
+This repository contains four machine learning projects organized by difficulty level. Each project is based on a real-world dataset and demonstrates key concepts in data science and machine learning using Python.
 
-# 🏠 House Price Prediction Using Linear Regression
+## 🔰 Level 1: Beginner (Basic Concepts and Skills)
 
-This project uses the California Housing dataset to build a machine-learning model that predicts house prices using linear regression techniques. The dataset contains demographic and housing-related data from the 1990 U.S. Census.
-
-## 📦 Features Used
-- `longitude`, `latitude`
-- `housing_median_age`
-- `total_rooms`, `total_bedrooms`
-- `population`, `households`
-- `median_income`
-- `ocean_proximity` (categorical)
-- 🛠️ Engineered:
-  - `rooms_per_household`
-  - `bedrooms_per_room`
-  - `population_per_household`
+### 📌 Project 1: Predict House Prices Using Linear Regression
+- **Description**: This project uses a simple dataset (California Housing) to predict house prices based on features like area, number of rooms, and location.
+- **Skills Covered**:
+  - Data preprocessing
+  - Linear regression modeling
+  - Evaluation metrics (MSE, R²)
+- **Video Reference**: *House Price Prediction with Python and Linear Regression*
 
 
-## 🔍 Goals
-- Build a regression pipeline with preprocessing (scaling + encoding)
-- Engineer new features to improve predictions
-- Use regularization (Ridge) to reduce overfitting
-- Visualize model performance and data relationships
+### 🌸 Project 2: Iris Flower Classification
+- **Description**: A classic machine learning project using the Iris dataset to classify flower species based on sepal and petal dimensions.
+- **Skills Covered**:
+  - Exploratory data analysis (EDA)
+  - Classification using Logistic Regression / KNN
+  - Data visualization
+- **Video Reference**: *Iris Flower Classification using Python*
 
 
-## 📊 Tools & Libraries
+## 🚀 Level 2: Intermediate (Slightly More Involved)
+
+### 💬 Project 3: Sentiment Analysis on Tweets
+- **Description**: Analyze the sentiment of tweets (positive, negative, or neutral) using natural language processing (NLP) techniques.
+- **Skills Covered**:
+  - Text cleaning and preprocessing
+  - Tokenization and vectorization (TF-IDF)
+  - Sentiment classification using NLP models
+- **Video Reference**: *Sentiment Analysis in Python*
+
+
+### ✍️ Project 4: Handwritten Digit Recognition Using MNIST
+- **Description**: Train a neural network to recognize handwritten digits using the MNIST dataset.
+- **Skills Covered**:
+  - Image preprocessing
+  - Neural network modeling with Keras
+  - Model evaluation and accuracy
+- **Video Reference**: *Handwritten Digit Recognition using Python and Keras*
+
+
+## ✅ Tools & Libraries Used
 - Python, Pandas, NumPy
-- Scikit-learn
-- Matplotlib & Seaborn
+- Scikit-learn, Matplotlib, Seaborn
+- Keras, TensorFlow (for deep learning)
+- NLTK / TextBlob / spaCy (for NLP)
 
 
-## 🚀 Model Results
-- **Model Used:** Ridge Regression
-- **R² Score:** ~0.63
-- **MSE:** ~3.57 billion
-
----
-
-## 📁 Files
-- `notebook.ipynb`: Main code notebook
-- `housing.csv`: Dataset file
-- `README.md`: Project overview
-
-
-## ✅ Future Improvements
-- Try other models (e.g., Random Forest, Gradient Boosting)
-- Perform hyperparameter tuning
-- Add cross-validation
-- Use geospatial clustering for location features
+## 📁 Project Structure
+Each project contains:
+- A Jupyter Notebook or `.py` file
+- Data files or links to datasets
+- Output visualizations
+- Summary and conclusions
 
